@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Discover Leh</title>
+        <link rel="stylesheet" href="STYLE_LEH.css">
+    </head>
+    <body>
+        <header>
+            <h1 style="font-family: Monospace;"> DISCOVER LEH </h1>
+            <p style="font-family: cursive; ">The Land of High Passes</p>
+        </header>
+        <main>
+            <section id="introduction">
+                <div class="left-half">
+                    <h2 style="font-family: Monospace;text-align: center; ">Welcome to Leh</h2>
+                    <p style="font-size: large;font-family: Monospace; ">Located at a height of <b>11,500 feet</b>, Leh finds place in the bucket list of many travel enthusiasts. It will leave you in awe with its iconic monasteries and picturesque landscapes. Experience the beauty of Leh, a high-desert city in the Himalayas, known for its Buddhist sites and stunning landscapes.</p>
+                    <p style="font-size: large;font-family: Monospace;">The snow-clad peaks and the crystal-clear lakes will leave you spellbound. From adventurous activities, wildlife exploration, and museums, to peaceful monasteries, palaces, and valleys, there are plenty of activities to enjoy.</p>
+                    <p style="font-size: large;font-family: Monospace;">Famous for the delicious traditional and non-traditional cuisines served here. Some of the must-try delicacies in the city are Tigmo, Khambir, Thupka, Mokthuk, Chang, Paba and Tangur among others.</p>
+                </div>
+                <div class="right-half">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="Travel_Leh/Images/img1.jpeg" style="width:100%; height: 300px ;">
+                            <div class="text">"A winding road leads to Leh's snow-capped mountains, offering breathtaking Himalayan views along the journey."</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="Travel_Leh/Images/img2.jpeg" style="width:100%; height: 300px ;">
+                            <div class="text">"Pebbles line the shore of a serene blue lake in Leh, India, reflecting tranquil beauty."</div>
+                        </div>
+                          
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="Travel_Leh/Images/img3.jpeg" style="width:100%; height: 300px ;">
+                            <div class="text">"A milestone, a whisper of adventure echoing through the majestic Himalayas."</div>
+                        </div>
+                          
+                        <div class="mySlides fade">
+                              <div class="numbertext">4 / 5</div>
+                              <img src="Travel_Leh/Images/img4.webp" style="width:100%; height: 300px ;">
+                              <div class="text">"Monks gather in serene unity, Leh, India, their saffron robes a testament to spiritual devotion."</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="Travel_Leh/Images/img5.jpeg" style="width:100%; height: 300px ;">
+                            <div class="text">"The elusive snow leopard prowls the rugged mountains of Leh, India, embodying the wild Himalayan beauty."</div>
+                        </div> 
+
+                        <div style="text-align:center">
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                          </div>
+                    </div>
+                </div>
+            </section>
+ 
+<script>
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<section id="attractions">
+    <h2 style="text-align: center; font-family: Monospace;">Top Attractions</h2>
+        <div class="attraction-container">
+            <div class="attraction">
+                <img src="Travel_Leh/Images/lehpalace.jpeg" alt="Leh Palace">
+                <h3>Leh Palace</h3>
+                <p>Also known as 'Lhachen Palkhar', this erstwhile royal palace is famous for its magnificent Tibetan architecture, and offers an insight into the local Buddhist culture.</p>
+            </div>
+
+            <div class="attraction">
+                    <img src="Travel_Leh/Images/shantistupa.jpeg" alt="Shanti Stupa">
+                    <h3>Shanti Stupa</h3>
+                    <p>Considered as the epitome of peace, this white-domed magnificent Stupa was built in 1991 as a part of the peace pagoda mission and houses ancient relics of the Buddhist culture.</p>
+            </div>
+
+            <div class="attraction">
+                    <img src="Travel_Leh/Images/Hemis_monastery.jpeg" alt="Hemis Monastery">
+                    <h3>Hemis Monastery</h3>
+                    <p>The largest and wealthiest monastery in Ladakh, known for its annual festival and rich cultural heritage.</p>
+            </div>
+
+            <div class="attraction">
+                    <img src="Travel_Leh/Images/Magnetic_Hill.jpeg" alt="Magnetic Hill">
+                    <h3>Magnetic Hill</h3>
+                    <p>Perched at a height of 14,000 feet, this mysterious hill is famous for its gravity-defying phenomenon that causes cars to roll uphill.</p>
+            
+           
+        </section>
+        <section id="travel-tips">
+            <h2 style="text-align: center; ">Best Time To Visit Leh</h2>
+            <p style="text-align: center; ">Perfect summer destination</p>
+            <div class="travel-container">
+                <div class="time">
+                    <p style="font-size: large;"><b>MAY - JUNE</b></p>
+                    <p style="color: rgb(11, 174, 25)">Peak season</p>
+                    <hr width="100%" size="2">
+                    <p><li>What To Expect: Clear blue skies with cold temperatures, around 5C to 7C.</li><p>
+                    <li>Things You'll Love: Sightseeing and the surreal vistas of snow-capped mountains.</li>
+
+                </div>
+
+                <div class="time">
+                    <p style="font-size: large;"><b>JUL - AUG</b></p>
+                    <p style="color: rgb(209, 35, 35)">Off-season</p>
+                    <hr width="100%" size="2">
+                    <p><li>What To Expect: Landslides and cloud bursts due to heavy rainfall.</li><p>
+                    <li>Things You'll Love: Rain-washed mountain sceneries and heavy off-season discounts.</li>
+
+                </div>
+
+                <div class="time">
+                    <p style="font-size: large;"><b>SEPT - FEB</b></p>
+                    <p style="color: rgb(232, 235, 59)">Moderate-season</p>
+                    <hr width="100%" size="2">
+                    <p><li>What To Expect: Extremely chilly weather with freezing nights.</li><p>
+                    <li>Things You'll Love: Walking on the frozen lakes.</li>
+
+                </div>
+            </div>
+            
+        </section>
+        <section id="contact">
+            <h2 style="font-family: Monospace; text-align: center;">Contact Us</h2>
+            <hr width="100%" size="2">
+            
+            <div class="form-container">
+                <div class="left">
+                    <div class="formd">
+                        <p>Feel free to contact us for any queries!</p>
+                        
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="right">
+                    <iframe style="height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52819.53929809439!2d77.56673819999999!3d34.166261649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38fdeb21445fed85%3A0xd1bb09975086f710!2sLeh!5e0!3m2!1sen!2sin!4v1717438963587!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Discover Leh</p>
+    </footer>
+    <script src="land.js"></script>
+</body>
+</html>
