@@ -1,0 +1,310 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+}
+
+header {
+    background-image: url('/Users/dhritikothari/Desktop/Task_1/Lehintro.jpeg'); /* Update the path as needed */
+    background-size: cover;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    width: 100 px;
+    height: 500 px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    width: 100 px;
+    height: 200 px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+main {
+    padding: 1em;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+ 
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+section {
+    margin-bottom: 2em;
+    padding: 1em;
+    color: #f3f6f6;
+    background-color: rgb(58, 56, 56);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h {text-align: center;}
+#attractions {
+    position: relative;
+}
+
+.attraction-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+   font-family: Monospace;
+   font-size: large;
+}
+
+.attraction {
+    flex: 0 0 auto;
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+    padding: 1.5em;
+    background-color: #404040;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(244, 83, 83, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.attraction img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#travel-tips {
+    position: relative;
+    font-family: Monospace;
+   font-size: large;
+}
+.travel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+}
+.time {
+    flex: 0 0 auto;
+    align-items: center;
+    width: 430px;
+    height: 280px;
+    margin-right: 20px;
+    padding: 1.5em;
+    background-color: #404040;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(244, 83, 83, 0.1);
+    text-align: left;
+    box-sizing: border-box;
+    font-family: Monospace;
+   font-size: large;
+}
+
+label {
+    margin-top: 0.5em;
+    font-family: Monospace;
+   font-size: large;
+}
+
+input, textarea, button {
+    margin-top: 0.5em;
+    font-family: Monospace;
+   font-size: large;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    font-family: Monospace;
+   font-size: large;
+}
+
+button:hover {
+    background-color: #45a049;
+    font-family: Monospace;
+   font-size: large;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: white;
+    font-family: Monospace;
+    font-size: large;
+    
+}
+
+#introduction {
+    display: flex;
+    flex-wrap: wrap;
+   
+    flex: 0 0 auto;
+}
+
+.left-half {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.right-half {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: 370px;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 10px;
+    position: absolute;
+    font-family: Monospace;
+    top: 85%;
+    text-align: center;
+    
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #9c8a8a;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+#contact {
+    display: block; 
+}
+
+.form-container {
+    display: flex;  
+    margin-top: 10px;  
+}
+
+.left {
+    flex: 1;
+    padding-right: 10px; 
+}
+
+.formd {
+    display: block; 
+    font-family: Monospace;
+    font-size: large;
+    margin-top: 10px; 
+}
+
+.right {
+    flex: 1;
+    padding-left: 10px;
+}
+
+
+
